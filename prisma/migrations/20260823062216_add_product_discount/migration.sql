@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "ProductVariant" ADD COLUMN     "discountPercent" DECIMAL(65,30) NOT NULL DEFAULT 0,
+ADD COLUMN     "salePrice" DECIMAL(65,30),
+ALTER COLUMN "price" SET DATA TYPE DECIMAL(65,30);
